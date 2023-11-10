@@ -12,7 +12,7 @@ export default function Home() {
       <Wrapper>
         <div className="bg-white h-[100vh] flex px-24 py-32 justify-center items-center lg:flex-row flex-col lg:justify-between">
           <div className="left pt-10 px-5 lg:px-0 flex lg:w-[49%] order-2 lg:order-1 w-[100vw] flex-col gap-4">
-            <p className="font-bold lg:text-lg text-center lg:text-left">Im</p>
+            <p className="font-bold lg:text-lg text-center lg:text-left">I'm</p>
             <h2 className="lg:text-6xl text-4xl text-center lg:text-left text-sky-700 font-bold">
               Shahriar Ridom
             </h2>
