@@ -9,7 +9,7 @@ export default function Button({children, exclass}) {
     transition={{duration:0.3, delay:0.5}}
     whileHover={{scale:1.06, transition:{duration:0.2, delay:0}}}
     whileTap={{scale:0.9, transition:{duration:0.1}}}
-    className={`bg-sky-700 py-2 lg:py-3 text-white font-extrabold lg:w-40 w-28 text-sm lg:text-base rounded-md ${exclass}`}>
+    className={`py-2 lg:py-3 text-white font-medium lg:w-40 w-28 text-sm lg:text-base rounded-md ${exclass}`}>
         {children}
     </motion.button>
   )
