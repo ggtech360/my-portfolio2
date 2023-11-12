@@ -21,7 +21,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="bg-slate-100 z-50 fixed py-4 flex items-center justify-between px-12 lg:px-32 min-w-full w-full">
+    <div className="bg-white z-50 py-4 flex items-center justify-between px-12 lg:px-32 min-w-full w-full">
       <Link
         href="/"
         className="text-2xl cursor-pointer hover:text-sky-800 transition-all duration-100 ease-linear font-semibold"
