@@ -29,11 +29,11 @@ export default function Home() {
               design.
             </p>
             <div className="lg:inline-flex flex lg:flex-row flex-col lg:self-start self-center gap-4">
-              <Button exclass="lg:my-8 bg-primary text-base self-center lg:self-start hover:bg-opacity-90">
+              <Button exclass="lg:my-8 px-6 py-3 text-white bg-primary text-base self-center lg:self-start hover:bg-opacity-90">
                 Hire Me
               </Button>
               <Link href="/projects">
-                <Button exclass="lg:my-8 px-3 bg-main text-base self-center lg:self-start hover:bg-opacity-90">
+                <Button exclass="lg:my-8 px-6 py-3 text-white bg-main text-base self-center lg:self-start hover:bg-opacity-90">
                   Browse Projects
                 </Button>
               </Link>
